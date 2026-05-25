@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DUSHI Fragance | Asesoría Sensorial Olfativa</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Encuentra tu esencia ideal en DUSHI Fragance mediante nuestra Asesoría Sensorial interactiva. Conoce las notas e intensidad perfectas para tu PH.">
+  <meta name="keywords" content="asesoría sensorial, test olfativo, recomendación de perfume, tipo de perfume, acidez de piel, Dushi Fragance">
+  <meta name="author" content="Dushi Fragance">
+  
+  <!-- CSS Layers (Architectural layers) -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+
+  <!-- Cabecera / Navegación (Glassmorphic) -->
+  <header id="topbar" class="topbar">
+    <div class="container topbar-container">
+      <a href="index.html#hero" class="logo-link" aria-label="DUSHI Fragance Inicio">
+        <img src="assets/images/logos/logopng - copia.png" alt="Logo DUSHI Fragance" class="logo-img">
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-menu">
+          <li><a href="index.html#hero" class="nav-link">Inicio</a></li>
+          <li><a href="index.html#marca" class="nav-link">Marca</a></li>
+          <li><a href="catalogo.html" class="nav-link">Catálogo</a></li>
+          <li><a href="asesoria.html" class="nav-link active">Asesoría Sensorial</a></li>
+          <li><a href="insumos.html" class="nav-link">Insumos</a></li>
+          <li><a href="documentos.html" class="nav-link">Documentos</a></li>
+        </ul>
+      </nav>
+      <a href="asesoria.html" class="btn btn-primary btn-sm">Asesoría Sensorial</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION ASESORÍA -->
+    <section class="hero" style="min-height: 50vh; padding-top: 120px; background-image: linear-gradient(rgba(37,41,45,0.9), rgba(37,41,45,0.9)), url('assets/images/baners/baner3.png'); background-size: cover; background-position: center;">
+      <div class="container text-center animate-fade" style="max-width: 800px;">
+        <span class="eyebrow">Diagnóstico Personalizado</span>
+        <h1 style="color: var(--color-light); margin-bottom: var(--spacing-sm); font-size: clamp(2rem, 5vw, 3.5rem);">Asesoría Sensorial</h1>
+        <p class="lead" style="color: #c9c3b7; margin-bottom: 0;">Responde nuestro cuestionario dinámico de afinidad olfativa en un minuto y descubre las notas aromáticas, la intensidad y las composiciones ideales para tu PH y estilo de vida.</p>
+      </div>
+    </section>
+
+    <!-- CUESTIONARIO INTERACTIVO (WIZARD) -->
+    <section id="cuestionario" class="section dark-bg" style="background-image: linear-gradient(135deg, #1d2124 0%, #25292d 100%);">
+      <div class="container">
+        <!-- Wizard Container -->
+        <div class="quiz-card">
+          <div class="quiz-header">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span id="quizProgressText" style="font-size: 0.8125rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-accent);">Pregunta 1 de 4</span>
+              <span style="font-size: 0.8125rem; color: #a39c90;">DUSHI Engine v1.0</span>
+            </div>
+            <div class="quiz-progress-bar-wrapper">
+              <div id="quizProgressBar" class="quiz-progress-bar"></div>
+            </div>
+          </div>
+          <form id="quizForm">
+            <div id="quizWizardBody" class="quiz-body">
+              <!-- JS renderizará los pasos aquí dinámicamente -->
+            </div>
+            <div class="quiz-footer">
+              <button type="button" id="quizPrevBtn" class="btn btn-secondary btn-sm" style="display: none;">Atrás</button>
+              <button type="button" id="quizNextBtn" class="btn btn-primary btn-sm">Siguiente</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>DUSHI <span class="accent-text" style="font-family: var(--font-title); font-style: italic; font-weight: normal;">Fragance</span></h4>
+          <p style="margin-top: 10px; margin-bottom: 20px;">DUSHI es sabroso, inspira cariño, es dulce, sexy y agradable. Una marca que redefine el aroma personal.</p>
+          <p>© 2026 DUSHI Fragance. Todos los derechos reservados.</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/share/1EQdrPPe1k/" target="_blank" rel="noopener" aria-label="Facebook DUSHI" class="social-icon-link">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/dushi.fragance?igsh=MWp5Mmdtc3lpNDMwdw==" target="_blank" rel="noopener" aria-label="Instagram DUSHI" class="social-icon-link">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h5>Navegación</h5>
+          <ul>
+            <li><a href="index.html#hero">Inicio</a></li>
+            <li><a href="index.html#marca">Sobre DUSHI</a></li>
+            <li><a href="catalogo.html">Catálogo de Productos</a></li>
+            <li><a href="asesoria.html">Asesoría Sensorial</a></li>
+            <li><a href="insumos.html">Insumos</a></li>
+            <li><a href="documentos.html">Documentos</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h5>Contacto & Ubicación</h5>
+          <p>📍 Calle 135A Sur # 46 - 05, Felipe Echeverría Caldas, Antioquia</p>
+          <p>📧 dushifragance@gmail.com</p>
+          <p>💬 Asistencia WhatsApp: +57 301 518 10 54</p>
+          <a href="https://wa.me/573015181054" target="_blank" rel="noopener" class="btn btn-secondary btn-sm whatsapp-contact-btn">
+            <svg viewBox="0 0 24 24" style="width: 16px; height: 16px;">
+              <path class="whatsapp-icon-path" d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.863-9.73.001-2.597-1.012-5.04-2.85-6.88A9.74 9.74 0 0 0 11.99 1.76c-5.443 0-9.87 4.38-9.873 9.74-.001 2.077.541 4.104 1.571 5.9l-.372 1.36 1.425-.374.372.097.35.176-.328-.544zm11.536-6.425c-.29-.145-1.713-.846-1.977-.942-.264-.097-.456-.145-.648.145-.192.29-.744.942-.912 1.134-.168.192-.336.216-.626.072-.29-.145-1.222-.45-2.328-1.437-.86-.767-1.44-1.716-1.608-2.006-.168-.29-.018-.447.126-.59.13-.13.29-.337.433-.505.145-.169.192-.289.29-.481.096-.193.048-.361-.024-.505-.072-.145-.648-1.56-.888-2.137-.233-.562-.49-.486-.648-.495-.168-.008-.36-.01-.552-.01-.192 0-.504.072-.768.361-.264.29-1.008.987-1.008 2.405 0 1.418 1.032 2.789 1.176 2.98.144.193 2.037 3.111 4.931 4.363.688.298 1.224.476 1.644.609.69.22 1.32.19 1.82.115.556-.083 1.714-.7 1.953-1.374.24-.674.24-1.25.168-1.373-.072-.125-.264-.193-.553-.338z"/>
+            </svg>
+            WhatsApp Chat
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Diseño e implementación de E-commerce - Yuli Daniela Ortiz Vasquez (EDISTEC 2026-1)</p>
+        <p>Hosting por Latinoamérica Hosting Colombia | Respaldado por CIIN</p>
+      </div>
+    </div>
+  <!-- Chatbot DUSHI Embebido -->
+  <div id="dushiChatWidget" class="dushi-chat-widget pulse" aria-label="Abrir chat DUSHI" role="button" tabindex="0">
+    <img src="assets/images/logos/logo - copia.png" alt="DUSHI Chat" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+  </div>
+
+  <div id="dushiChatWindow" class="dushi-chat-window" aria-hidden="true" role="dialog">
+    <div class="dushi-chat-header">
+      <div class="dushi-chat-header-info">
+        <img src="assets/images/logos/logo - copia.png" alt="DUSHI Avatar" class="dushi-chat-avatar">
+        <div class="dushi-chat-title">
+          <h3>DUSHI</h3>
+          <span class="dushi-chat-status">En línea</span>
+        </div>
+      </div>
+      <button id="dushiChatCloseBtn" class="dushi-chat-close-btn" aria-label="Cerrar chat">×</button>
+    </div>
+    
+    <div id="dushiChatBody" class="dushi-chat-body">
+      <!-- Los mensajes serán insertados aquí dinámicamente -->
+    </div>
+    
+    <div id="dushiChatOptions" class="dushi-chat-options">
+      <!-- Botones de opciones cargados dinámicamente -->
+    </div>
+  </div>
+
+  <!-- JavaScript Layers -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/quizService.js"></script>
+  <script src="assets/js/uiController.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
